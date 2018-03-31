@@ -4,6 +4,6 @@ $(document).ready(function() {
 	    event.preventDefault();
     	var addOn = $('input[name=textBox]').val();
     	$('ul').append('<li>' + addOn + '</li>');
-    	
+    	$('input[name=textBox]').val('');
     });
 });
