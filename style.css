@@ -1,36 +1,59 @@
-body {
-	background: #aa863a;
-	text-align: center;
+html body {
 	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #89949E;
+}
+
+.intro {
+	height: 703px;
+	width: 100%;
+	margin: auto;
+	background: url(images/kiki.jpg) center center no-repeat;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;	
+	width: 100%;
+	max-width: none;
+}
+
+.content{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 450%
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-    text-transform: uppercase;
-    color: white;
-    border: 2px solid white;
-    padding: 10px;
-    background: rgba(150, 150, 150, 0.3);
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	border: 2px solid white;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.2);
 }
 
 li {
-	height: 30px;
-	width: 600px;
-	list-style-type: none;
-	background-color: white;
-	padding: 20px 10px;
-	border: 2px solid #f0eceb;
-	margin: 5px auto;
-	text-transform: lowercase;
-	font-family: 'Ubuntu', sans-serif;
-	color: #aa863a;
-
+    height: 20px;
+    width: 50%;
+    list-style-type: none;
+    background-color: white;
+    padding: 20px 10px;
+    border: 2px solid #837E5C;
+    margin: 5px auto;
+    text-transform: lowercase;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3C454E;
+    text-align: center;
 }
 
 ul {
@@ -38,31 +61,81 @@ ul {
 }
 
 
-p {
-	font-family: 'Lato', sans-serif;
-	font-weight: 300px;
-	color: 	#283018;
+h4, p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 
 
+
+h4 {
+	font-size: 35px;
+	line-height: 30px;
+}
+
+
+#todo {
+	text-align: center;
+}
+
 input {
-	height: 30px;
-	width: 400px;
-	border: 2px solid #aa863a; 
+    height: 40px;
+    width: 50%;
+    border: 2px solid #837E5C;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+button#submitButton {
+	margin: 0;
+	padding: 0;
 }
 
 #submitButton {
-    height: 30px;
-    width: 70px;
-    background: #dec0bb;
+    height: 40px;
+    width: 80px;
+    background: #837E5C;
+    position: relative;
     color: white;
-    border: 2px solid #ead8d0; 
+    border: 2px solid #837E5C;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
-img {
-	object-fit: fill;
-	height: auto;
+
+#submitButton:hover {
+	color: #837E5C;
+	background-color: #fff;
+
+}
+
+.footer {
+	height: 50px;
 	width: 100%;
-	margin: 0 auto;
+	background-color: #837E5C;
+	margin-top: 60px;
 }
+
+.footer img {
+    height: 35px;
+    width: auto;
+    float: right;
+    margin-top: 9px;
+}
+
+img.linkedIn {
+    height: 23px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: -3px;
+}
+
+

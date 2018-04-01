@@ -4,26 +4,36 @@
   	  <link href="https://fonts.googleapis.com/css?family=Lato:100|Ubuntu" rel="stylesheet">	
 	  <meta charset="UTF-8">
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	  <meta name="viewport" content="width=device-width,initial-scale=1">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <title>Bucket List</title>
 	  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	  <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-  	<img src="images/beach.jpg" alt="">
-  	<header class='pageTop'>
-  		<h1>Bucket List</h1>
-  	</header>
+  	<section class="intro">
+  		<div class="inner">
+  			<div class="content">
+  				<h1>Bucket List</h1>
+  			</div>
+  		</div>
+  	</section>
   	<section>
-  		<form name="toDoForm" action="submit" id="todo">
+  		<h4>You know all those things you have always wanted to do?</h4>
+  		<p>You should do them... Like really!<br /><br /> Throw a dart at a map and travel wherever it lands, go on a stargazing date, see the Grand Canyon, zip-line through the jungle, dance in the rain, the list goes on! <br /><br /> Stop wishing, <em>start doing.</em></p>
+  	</section>
+	<section>
+		<form name="toDoForm" action="submit" id="todo">
 			<input name="textBox" type="text" placeholder="I want to...">
 			<button id="submitButton">Add it on!</button>
 		</form>
 		<ul></ul>
-  	</section>
-
-  
-
+	</section>
+	<footer>
+		<nav class="footer">
+			<a href="https://www.instagram.com/katcozadd/"><img src="images/insta.png" alt="Link to Kat Cozadd Instagram" ></a>
+			<a href="https://www.linkedin.com/in/katrina-cozadd"><img src="images/newlink.png" class="linkedIn" alt="Link to Kat Cozadd LinkedIn" ></a>
+		</nav>
+	</footer>
   <script src="app.js"> </script>
   </body>
 </html>
