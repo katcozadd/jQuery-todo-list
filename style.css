@@ -138,4 +138,11 @@ img.linkedIn {
     margin-right: -3px;
 }
 
+img.gitHub {
+    height: 23px;
+    width: auto;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
 
